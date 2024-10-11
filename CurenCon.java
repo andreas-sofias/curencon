@@ -87,7 +87,7 @@ public class CurenCon {
 						    break;
 				case "USD": System.out.format("%.2f of RMB corresponds to %.2f USD",amount,renmibi_to_usd(amount));
 			    			break;
-				case "RMB": System.out.format("%.2f of RMB corresponds to %.2f YEN",amount,renmibi_to_yen(amount));
+				case "YEN": System.out.format("%.2f of RMB corresponds to %.2f YEN",amount,renmibi_to_yen(amount));
 			    			break;
 				case "GBP": System.out.format("%.2f of RMB corresponds to %.2f GBP",amount,renmibi_to_gbp(amount));
 			    			break;
@@ -103,7 +103,7 @@ public class CurenCon {
 			    			break;
 				case "RMB": System.out.format("%.2f of GBP corresponds to %.2f RMB",amount,sterling_to_rmb(amount));
 			    			break;
-				case "GBP": System.out.format("%.2f of GBP corresponds to %.2f YEN",amount,sterling_to_yen(amount));
+				case "YEN": System.out.format("%.2f of GBP corresponds to %.2f YEN",amount,sterling_to_yen(amount));
 			    			break;
 				}
 			}
